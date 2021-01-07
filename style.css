@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-90%);
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Muli', sans-serif;
+    background: #f6e58d;
+}
+
+.bar, .submit {
+    font-family: 'Muli', sans-serif;
+    height: 25px;
+    outline: none;
+    transition-duration: .5s;
+}
+
+.bar {
+    background: #dcdde1;
+    width: 500px;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+.submit:hover {
+    background: #717e8d;
+}
+
+.submit {
+    background: #7f8fa6;
+    border: none;
+    box-shadow: 5px 5px black;
+}
